@@ -18,6 +18,6 @@ module "instance" {
   instance_type       = "Standard_DS1_v2"
   project             = var.project
   resource_group_name = var.azure_resource_group_name
-  subnet_id           = "/subscriptions/7340e695-0328-4c5c-b90c-4dc57e6b94a9/resourceGroups/CycloidRessources/providers/Microsoft.Network/virtualNetworks/Cycloid_env"
+  subnet_id           = "/subscriptions/7340e695-0328-4c5c-b90c-4dc57e6b94a9/resourceGroups/CycloidRessources/providers/Microsoft.Network/virtualNetworks/cycloidenv/subnets/default"
 }
 
