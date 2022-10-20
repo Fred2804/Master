@@ -24,5 +24,5 @@ project: gettingstarted
 stack_git_branch: master
 terraform_storage_access_key: ((azure_storage.access_key))
 terraform_storage_account_name: ((azure_storage.account_name))
-terraform_storage_container_name: cycloidressources
+terraform_storage_container_name: cycloid-demo
 terraform_storage_container_path: gettingstarted/test6
