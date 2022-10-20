@@ -12,7 +12,7 @@ azure_client_id: ((azure.client_id))
 azure_client_secret: ((azure.client_secret))
 azure_env: public
 azure_location: francecentral
-azure_resource_group_name: CycloidRessources
+azure_resource_group_name: cycloidressources
 azure_subscription_id: ((azure.subscription_id))
 azure_tenant_id: ((azure.tenant_id))
 config_git_branch: config
@@ -24,5 +24,5 @@ project: gettingstarted
 stack_git_branch: master
 terraform_storage_access_key: ((azure_storage.access_key))
 terraform_storage_account_name: ((azure_storage.account_name))
-terraform_storage_container_name: CycloidRessources
+terraform_storage_container_name: cycloidressources
 terraform_storage_container_path: gettingstarted/test6
